@@ -45,7 +45,7 @@ services:
     depends_on:
       - backend
     ports:
-      - "3035:3000"
+      - "3000:3000"
 
 volumes:
   gradle-cache: {}
